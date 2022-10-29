@@ -1,0 +1,69 @@
+
+:root {
+    --titel-text-color: #212121;
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+
+.site-nav {
+    color: var(--titel-text-color);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: var(--accent-color);
+}
+
+.logo {
+    color: black;
+}
+
+.logo-first {
+    color: var(--accent-color);
+}
+
+.link-mail{
+    color: var(--accent-color);
+}
+
+.link-tel{
+    color: var(--primary-text-color);
+}
+
+/* main */
+
+.page{
+    color: var(--primary-text-color);
+}
+
+.titel{
+    color: var(--titel-text-color);
+}
+
+.hero{
+    background-color: #2F303A;
+}
+
+.title-hero{
+    color: #fff;
+}
+
+.batton{
+    color: #fff;
+    background-color: var(--accent-color);
+}
+
+.preference{
+    background-color: #F5F5F5;
+}
+
+.team{
+    background-color: #F5F4FA;
+}
+/* footer */
