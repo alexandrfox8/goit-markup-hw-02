@@ -110,6 +110,7 @@ ul {
     height: 38px;
     left: 512px;
     top: 174px;
+    cursor: pointer;
 }
 
 .filter:hover,
