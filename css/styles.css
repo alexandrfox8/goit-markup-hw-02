@@ -5,6 +5,10 @@
     --accent-color: #2196F3;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 ul {
     list-style: none;
 }
@@ -13,6 +17,10 @@ ul {
 
 .site-nav {
     color: var(--titel-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav.current{
@@ -32,6 +40,18 @@ ul {
     color: var(--accent-color);
 }
 
+.logo,
+.logo-first,
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+
 .link-mail{
     color: var(--accent-color);
 }
@@ -40,14 +60,53 @@ ul {
     color: var(--primary-text-color);
 }
 
+.link-mail,
+.link-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 /* main */
 
 .page{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .titel{
     color: var(--titel-text-color);
+}
+
+.specifics {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.profesion {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .hero{
@@ -56,11 +115,21 @@ ul {
 
 .title-hero{
     color: #fff;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button{
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 .button:hover,
@@ -90,26 +159,36 @@ ul {
 
 .address{
     color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .contacts{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* ---------portfolio---------- */
 
 .filter{
+    font-family: 'Roboto', sans-serif;
     color: #212121;
     background-color: #F5F4FA;
     border: none;
     border-radius: 8px;
     transition-duration: 0.2s;
     float: left;
-    font-size: 16px;
+
     font-weight: 500;
-    height: 38px;
-    left: 512px;
-    top: 174px;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+
     cursor: pointer;
 }
 
@@ -124,8 +203,16 @@ ul {
 
 .product{
     color: var(--titel-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
 }
 
 .description{
     color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
