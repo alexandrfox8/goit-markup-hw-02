@@ -7,6 +7,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
 }
 
 ul {
@@ -67,11 +68,20 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
+
+.link-mail:hover,
+.link-tel:hover,
+.contacts:hover,
+.link-mail:focus,
+.link-tel:focus,
+.contacts:focus {
+    color: red;
+}
+
 /* main */
 
 .page{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -103,7 +113,6 @@ ul {
 }
 
 .profesion {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -159,7 +168,6 @@ ul {
 
 .address{
     color: #fff;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -167,7 +175,6 @@ ul {
 
 .contacts{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -211,7 +218,6 @@ ul {
 
 .description{
     color: var(--primary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
