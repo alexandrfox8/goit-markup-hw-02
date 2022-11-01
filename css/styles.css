@@ -17,6 +17,7 @@ ul {
 /* header */
 
 .site-nav {
+    text-decoration: none;
     color: var(--titel-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -53,29 +54,25 @@ ul {
     letter-spacing: 0.03em;
 }
 
-.link-mail{
-    color: var(--accent-color);
-}
 
-.link-tel{
+.link{
     color: var(--primary-text-color);
-}
-
-.link-mail,
-.link-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
 
-.link-mail:hover,
-.link-tel:hover,
+.link,
+.contacts {
+    text-decoration: none;
+}
+
+.link:hover,
 .contacts:hover,
-.link-mail:focus,
-.link-tel:focus,
+.link:focus,
 .contacts:focus {
-    color: red;
+    color: var(--accent-color);
 }
 
 /* main */
@@ -123,6 +120,7 @@ ul {
 }
 
 .title-hero{
+    text-transform: uppercase;
     color: #fff;
     font-weight: 900;
     font-size: 44px;
@@ -149,9 +147,6 @@ ul {
     cursor: pointer;
 }
 
-.preference{
-    background-color: #F5F5F5;
-}
 
 .team{
     background-color: #F5F4FA;
@@ -168,13 +163,15 @@ ul {
 
 .address{
     color: #fff;
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
 .contacts{
-    color: var(--primary-text-color);
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
